@@ -1,0 +1,271 @@
+*::selection{
+ background: #4CAF4F;
+ color: white;
+}
+.cs-ul{
+    gap: 30px;
+}
+#cs-li{
+    margin-right: 30px;
+}
+.cs-btn{
+    border: none;
+    outline: none;
+    padding: 0.8rem 2.5rem;
+    background-color: #4CAF4F;
+    color: #fff;
+    &:hover{
+        opacity: 0.8;
+    }
+}
+.custom-li{
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.cs-btn>i{
+    margin-left: 10px ;
+}
+.cs-row{
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+}
+.cs-hero-div{
+    background-color: #F5F7FA;
+}
+.cs-hero-text>h1>span{
+    color: #4CAF4F;
+}
+.cs-hero-text>h1{
+    font-weight: 600;
+    line-height: 52px;
+    font-size: 44px;
+}
+.cs-hero-text>p{
+    color: #717171;
+    font-weight: 400;
+    line-height: 16.71px;
+}
+.cs-img{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.cs-img>img{
+    width: 100%;
+    height: 25rem;
+}
+.cs-hero-button{
+    border: none;
+    outline: none;
+    padding: 0.8rem 2.5rem;
+    background-color: #4CAF4F;
+    color: #fff;
+    &:hover{
+        opacity: 0.8;
+    }
+}
+.cs-page3-container{
+    padding: 2rem 0;
+}
+.cs-page-3>h1{
+    line-height: 30px;
+    font-weight: 600;
+    text-align: center;
+    color: #4D4D4D;
+}
+.cs-page-3>p{
+    line-height: 16.71px;
+    color: #717171;
+    text-align: center;
+}
+.cs-page-row{
+    padding: 2rem 0;
+    gap: 100px;
+}
+.div-page-4>h1{
+    text-align: center;
+    color: #4D4D4D;
+}
+.div-page-4>p{
+    text-align: center;
+    color: #717171;
+}
+.cs-card{
+    text-align: center;
+}
+.cs-card>h1{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 1rem;
+}
+.cs-page-4-row{
+    padding-top: 2rem;
+}
+.cs-section-5{
+    padding: 3rem 0;
+    background-color: #F5F7FA;
+}
+.cs-section-5>.container>h1{
+  text-align: center;
+}
+.cs-section5-btn-div{
+    padding-top: 3rem;
+    text-align: center;
+}
+.cs-section-5-btn{
+    border: none;
+    outline: none;
+    padding: 0.8rem 2.5rem;
+    background-color: #4CAF4F;
+    color: #fff;
+    &:hover{
+        opacity: 0.8;
+    }
+}
+.cs-footer{
+    background: #263238;
+}
+.cs-footer-col>p{
+    color: white;
+    padding-bottom: 2rem;
+}
+.cs-footer-col>img{
+    padding-bottom: 2rem;
+}
+.cs-footer-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #434a4d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    &:hover{
+        opacity: 0.5;
+    }
+}
+.cs-footer-icon>i{
+    color: white;
+    font-size: 1.5rem;
+}
+.div-footer-i{
+    display: flex;
+    gap: 15px;
+}
+.cs-footer-row{
+    min-height: 40vh;
+    align-items: center;
+    display: flex;
+}
+
+.cs-footer-div{
+    color: white;
+    display: flex;
+    gap: 100px;
+}
+.footer-right-1>h1{
+    font-size: 25px;
+}
+.footer-right-1>ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    justify-content: start;
+    width: 100%;
+}
+.footer-right-1>ul>li{
+    width: 100%;
+    list-style: none;
+    text-align: left;
+    margin-bottom: .1rem;
+    &:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+.footer-rigth-form>h1{
+    font-size: 25px;
+}
+.div-email{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    background: rgb(152, 152, 152);
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    color: white;
+}
+.div-email>input{
+    color: #D9DBE1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.ri-send-plane-fill{
+    cursor: pointer;
+}
+/* media quries */
+@media (max-width:992px) {
+    #cs-li{
+        margin-right: 0;
+    }
+    .cs-footer-col{
+        padding: 2rem 0;
+    }
+    .cs-nav-list{
+        padding: 1rem 0; 
+        text-align: center;
+    }
+    
+}
+@media (max-width:600px) {
+    
+    .cs-row{
+        padding-top: 1.5rem;
+    }
+    .cs-hero-text>h1{
+        text-align: center;
+    }
+    .cs-hero-text>p{
+        text-align: center;
+    }
+    .cs-div{
+        text-align: center;
+    }
+    .cs-img {
+        justify-content: center;
+    }
+    .cs-img>img{
+     padding-top: 1.5rem; 
+    }
+    .cs-page-3-col{
+        display: none;
+    }
+    .cs-section-5{
+        padding: 1.5rem 0;
+    }
+    .cs-section5-btn-div{
+        padding-top: 1.5rem;
+    }  
+    .cs-footer-div{
+        display: flex;
+        flex-direction: column;
+    }
+    .cs-footer-col{
+        padding: 3rem 1rem;
+    }
+    .footer-rigth-form{
+        width: 230px;
+        margin-bottom: 20px;
+    }
+    .cs-footer-div{
+        gap: 10px;
+    }
+    .cs-page-row{
+        padding-left: 10px ;
+        padding-right: 10px;
+    }
+}
